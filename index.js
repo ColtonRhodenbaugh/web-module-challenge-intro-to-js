@@ -198,7 +198,7 @@ if (computer <= 0.34){
 }
 function game(user, computer){
   if(user === computer){
-    return 'its a tie!';
+    return "it's a tie";
   }else if( user === 'rock' && computer === 'scissors'){
     return 'you win!';
   }else if(user === 'paper' && computer === 'rock'){
@@ -265,7 +265,7 @@ function annoyingSong(number){
         pass it around ${i -1} bottles of soda on the wall`;
       }
 }
-console.log('task 6:', annoyingSong(8));
+console.log('task 6:', annoyingSong(6));
 console.log('task 6:', annoyingSong(7));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -289,14 +289,14 @@ function grade(number){
   }else if(number < 90 && number >= 80){
     return 'you got a B';
   }else if(number < 80 && number >=70){
-    return 'you got a C'
+    return 'you got a C';
   }else if(number < 70 && number >= 60){
     return 'you got a D';
-  }else if(number < 60){
-    return 'you got a F';
+  }else if(number < 60 && number >=0){
+    return 'you got an F';
   }
 }
-console.log('task 7:', grade(52))
+console.log('task 7:', grade(78))
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
